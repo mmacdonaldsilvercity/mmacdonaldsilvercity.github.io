@@ -3,8 +3,6 @@ published: true
 title: A Definition of Enterprise Computing
 layout: post
 ---
-# A Working Definition of Enterprise Computing
-
 Since I'm likely to be talking about it in other postings, I'll define what I mean by Enterprise Computing.
 
 In my way of thinking, I don't consider customer-facing applications -- regardless of size or arrival/throughput rates -- as Enterprise Computing applications.  Critical, complex, a vital component of some business models, yes.  But customer-facing fashion is fickle and rapidly changing, and that should be built into the application expectations regarding longevity and costs for rewrites.  Now the underlying architecture and tools that support those ... Now we're talking.  
