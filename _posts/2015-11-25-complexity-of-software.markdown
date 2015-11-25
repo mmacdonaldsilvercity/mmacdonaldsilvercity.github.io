@@ -18,7 +18,9 @@ Each paycheck navigates this program, which means there are 24,840 * 920 = 22,85
  
 The total number of logic decisions, for this one process, for one campus, for a single month is just under 42.7 million. 
 
-I don’t want to continue counting what the total number of decisions for a single month would be.  This single program represents quite a bit less than an hour of elapsed time per month out of a batch schedule that amounts to about 40 hours per month.  And, there is online processing executed as part of the application, running 12 hours per day every business day.
+One campus, out of nine supported campuses, representing about 18% of the total number of active employees paid.  For the entire month, for all pay cycles, for all campuses, you are looking at 237 million logic branches, just and only to create the pay deposits and checks.  
+
+I don’t want to continue counting what the total number of decisions for a single month would be.  This **single process** represents quite a bit less than an hour of elapsed time per month out of a batch schedule that amounts to about 40 hours per month.  And, there is online processing executed as part of the application, running 12 hours per day every business day.  This being just 18% of the total workload for the payroll application running for the nine campuses.
  
 I started thinking about this when a month or so ago I was at one of the kids activities that was held at a high school.  One of the dads there proudly mentioned that the construction company he works for built the school, a $180 million project.  Shortly after that, I came across the statistic that less than 10% of large IT projects (much smaller in total cost than that single high school construction) are fully successful. 
 
