@@ -15,13 +15,13 @@ Hey, done this three times (or more); time to automate it!
 
 Simple script.  What, 3 lines?  What did it look like again? ... Oh, 4 lines:
 
-'''bash  
+``` bash  
 
 echo "Host $2" >> ~/.ssh/config  
 echo "   Hostname $S1" >> ~/.ssh/config  
 echo "   User $S3 " >> ~/.ssh/config  
 ssh-copy-key  
-'''
+```
 
 All well and good.  Except, gee, there is a pre-requisite -- the command ssh-keygen needs to be run one time, and when I've moved from one environment to another I've had to reenter that.  See above for the search algorithm, since my memory is like a sieve and I need to see the doc.
 
@@ -40,4 +40,3 @@ But wait, what if not all the parms are listed?  OK, gotta check to see if all t
 Meanwhile, I've tested with my live ssh config file.  It now looks like garbage.  Another idea!  I've used the dry-run option on a bunch of commands, so that I could see what I'd break...
 
 ...and so on and so on.  The script is now 260 lines, including the -h text.  (See it on github at [https://github.com/mmacdonaldsilvercity/NewSSHLogon.git](https://github.com/mmacdonaldsilvercity/NewSSHLogon.git) And, just to prove how easily developers get carried away, I'm thinking that this could make a really nice template for the next time that I want to convert a 3 or 4 line command sequence into a lost weekend...
-
