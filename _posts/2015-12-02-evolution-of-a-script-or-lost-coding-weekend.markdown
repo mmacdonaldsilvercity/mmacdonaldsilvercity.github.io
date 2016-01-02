@@ -3,7 +3,48 @@ published: true
 title: Evolution of a Script or: Lost Coding Weekend
 layout: post
 ---
-Yeah, all programmers are lazy.  That's why they program computers to do their scut-work, right?  
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>It is all about me...</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<header id="header">
+    <h1><a href="/"><i class="icon-sun"></i> </a></h1>
+    <p>A long career, with a lot of different experiences in corporate Information Technology provides a backdrop for observing the IT-scape.</p>
+  </header>
+  <div id="page">
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Blog Index</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="http://twitter.com/mmacdonaldscp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+          <li><a href="mailto:contact@silvercityenterprises.com">Respond</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="content">
+      <article class="post">
+
+	
+		<h1><a href="/2016/01/02/it-is-all-about-me.html">It is all about me...</a></h1>
+<div class="post-content">Yeah, all programmers are lazy.  That's why they program computers to do their scut-work, right?  
 
 And maybe they save themselves some time, mostly.  Then again, sometimes these general purpose computers call to us, saying "Lookit all the groovy things I can do!  Program me!"  And it is a false promise, because sometimes it's just plain easier and quicker NOT to apply a technical solution.
 
@@ -40,3 +81,27 @@ But wait, what if not all the parms are listed?  OK, gotta check to see if all t
 Meanwhile, I've tested with my live ssh config file.  It now looks like garbage.  Another idea!  I've used the dry-run option on a bunch of commands, so that I could see what I'd break...
 
 ...and so on and so on.  The script is now 260 lines, including the -h text.  (See it on github at [https://github.com/mmacdonaldsilvercity/NewSSHLogon.git](https://github.com/mmacdonaldsilvercity/NewSSHLogon.git) And, just to prove how easily developers get carried away, I'm thinking that this could make a really nice template for the next time that I want to convert a 3 or 4 line command sequence into a lost weekend...
+
+</div>
+
+	<p class="meta">Posted on <span class="postdate">Jan 02, 2016</span></p>
+
+</article>
+
+    </div>
+  </div>
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; 2016 . Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
+
+
+</body>
+</html>
