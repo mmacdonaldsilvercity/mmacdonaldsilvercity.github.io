@@ -44,11 +44,13 @@ layout: post
 
 	
 		<h1><a href="http://mmacdonaldsilvercity.github.io/2015/12/02/evolution-of-a-script-or-lost-coding-weekend.html">Evolution of a Script: Or Lost Coding Weekend</a></h1>
-<div class="post-content">Yeah, all programmers are lazy.  That's why they program computers to do their scut-work, right?  
+<div class="post-content">
 
-And maybe they save themselves some time, mostly.  Then again, sometimes these general purpose computers call to us, saying "Lookit all the groovy things I can do!  Program me!"  And it is a false promise, because sometimes it's just plain easier and quicker NOT to apply a technical solution.
+<p>Yeah, all programmers are lazy.  That's why they program computers to do their scut-work, right? </p> 
 
-In other words:  How I Ate Up Every Spare Minute of My Thanksgiving Long Weekend...
+<p>And maybe they save themselves some time, mostly.  Then again, sometimes these general purpose computers call to us, saying "Lookit all the groovy things I can do!  Program me!"  And it is a false promise, because sometimes it's just plain easier and quicker NOT to apply a technical solution.</p>
+
+<p>In other words:  How I Ate Up Every Spare Minute of My Thanksgiving Long Weekend...</p>
 
 It started out innocently enough.  Long about a year or so ago a very learned and wise Super Programmer sent me a quick email outlining how to configure SSH server logons so that no password is needed to be remembered.  For the first three or 8 times I wanted to implement an update to ~/.ssh/config, I searched around in a year's worth of email archives, and a thrown together binder of technical notes, a pile of gonna-writet-these-up post-its, until I located the instructions again.  
 
