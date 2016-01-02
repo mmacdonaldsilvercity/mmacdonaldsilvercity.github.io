@@ -58,14 +58,12 @@ layout: post
 
 <p>Simple script.  What, 3 lines?  What did it look like again? ... Oh, 4 lines:</p>
 
-<code>  
-
+```
 echo "Host $2" >> ~/.ssh/config   
 echo "   Hostname $S1" >> ~/.ssh/config   
 echo "   User $S3 " >> ~/.ssh/config   
 ssh-copy-key   
-
-</code>
+```
 
 <p>All well and good.  Except, gee, there is a pre-requisite -- the command ssh-keygen needs to be run one time, and when I've moved from one environment to another I've had to reenter that.  See above for the search algorithm, since my memory is like a sieve and I need to see the doc.</p>
 
