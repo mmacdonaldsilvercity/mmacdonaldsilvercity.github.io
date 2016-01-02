@@ -52,11 +52,11 @@ layout: post
 
 <p>In other words:  How I Ate Up Every Spare Minute of My Thanksgiving Long Weekend...</p>
 
-It started out innocently enough.  Long about a year or so ago a very learned and wise Super Programmer sent me a quick email outlining how to configure SSH server logons so that no password is needed to be remembered.  For the first three or 8 times I wanted to implement an update to ~/.ssh/config, I searched around in a year's worth of email archives, and a thrown together binder of technical notes, a pile of gonna-writet-these-up post-its, until I located the instructions again.  
+<p>It started out innocently enough.  Long about a year or so ago a very learned and wise Super Programmer sent me a quick email outlining how to configure SSH server logons so that no password is needed to be remembered.  For the first three or 8 times I wanted to implement an update to ~/.ssh/config, I searched around in a year's worth of email archives, and a thrown together binder of technical notes, a pile of gonna-writet-these-up post-its, until I located the instructions again. </p> 
 
-Hey, done this three times (or more); time to automate it!
+<p>Hey, done this three times (or more); time to automate it!</p>
 
-Simple script.  What, 3 lines?  What did it look like again? ... Oh, 4 lines:
+<p>Simple script.  What, 3 lines?  What did it look like again? ... Oh, 4 lines:</p>
 
 ``` bash  
 
@@ -66,23 +66,23 @@ echo "   User $S3 " >> ~/.ssh/config
 ssh-copy-key  
 ```
 
-All well and good.  Except, gee, there is a pre-requisite -- the command ssh-keygen needs to be run one time, and when I've moved from one environment to another I've had to reenter that.  See above for the search algorithm, since my memory is like a sieve and I need to see the doc.
+<p>All well and good.  Except, gee, there is a pre-requisite -- the command ssh-keygen needs to be run one time, and when I've moved from one environment to another I've had to reenter that.  See above for the search algorithm, since my memory is like a sieve and I need to see the doc.</p>
 
-Heck, there must be a way to check for whether that's been run.  Sure enough, there are some files created in the ssh config directory.  Just gotta look for those there first, and run the command if they aren't.
+<p>Heck, there must be a way to check for whether that's been run.  Sure enough, there are some files created in the ssh config directory.  Just gotta look for those there first, and run the command if they aren't.</p>
 
-Wait.  It's bad form to muck around with an administrator's configurations without warning.  I'll have to ask if it's ok to do that update.
+<p>Wait.  It's bad form to muck around with an administrator's configurations without warning.  I'll have to ask if it's ok to do that update.</p>
 
-At this point, my perspective went awry, and I got the wild idea that maybe, just maybe, there might be one or two linux users out there who haven't mastered this little trick, and actually might find a use for this script.  Hmmm... Well, if that is the case, I better check for those parms.
+<p>At this point, my perspective went awry, and I got the wild idea that maybe, just maybe, there might be one or two linux users out there who haven't mastered this little trick, and actually might find a use for this script.  Hmmm... Well, if that is the case, I better check for those parms.</p>
 
-Did I ever know how to check for parms in bash scripts?  If I did, I forgot it or it got mixed up with other formats of the same thing in other languages.  ... Oh, getopts.  But it checks for switches, not positional parms.  No biggee.
+<p>Did I ever know how to check for parms in bash scripts?  If I did, I forgot it or it got mixed up with other formats of the same thing in other languages.  ... Oh, getopts.  But it checks for switches, not positional parms.  No biggee.</p>
 
-Hold on -- There must be some technique for checking for positional parms also.  Of course there is!  
+<p>Hold on -- There must be some technique for checking for positional parms also.  Of course there is! </p> 
 
-But wait, what if not all the parms are listed?  OK, gotta check to see if all three parms are there, or none.  But there are switches for the three inputs required; what if the operator enters only 2 of them?  Ok, more logic there.
+<p>But wait, what if not all the parms are listed?  OK, gotta check to see if all three parms are there, or none.  But there are switches for the three inputs required; what if the operator enters only 2 of them?  Ok, more logic there.</p>
 
-Meanwhile, I've tested with my live ssh config file.  It now looks like garbage.  Another idea!  I've used the dry-run option on a bunch of commands, so that I could see what I'd break...
+<p>Meanwhile, I've tested with my live ssh config file.  It now looks like garbage.  Another idea!  I've used the dry-run option on a bunch of commands, so that I could see what I'd break...</p>
 
-...and so on and so on.  The script is now 260 lines, including the -h text.  (See it on github at [https://github.com/mmacdonaldsilvercity/NewSSHLogon.git](https://github.com/mmacdonaldsilvercity/NewSSHLogon.git) And, just to prove how easily developers get carried away, I'm thinking that this could make a really nice template for the next time that I want to convert a 3 or 4 line command sequence into a lost weekend...
+<p>...and so on and so on.  The script is now 260 lines, including the -h text.  (See it on github at [https://github.com/mmacdonaldsilvercity/NewSSHLogon.git](https://github.com/mmacdonaldsilvercity/NewSSHLogon.git) And, just to prove how easily developers get carried away, I'm thinking that this could make a really nice template for the next time that I want to convert a 3 or 4 line command sequence into a lost weekend...</p>
 
 </div>
 
