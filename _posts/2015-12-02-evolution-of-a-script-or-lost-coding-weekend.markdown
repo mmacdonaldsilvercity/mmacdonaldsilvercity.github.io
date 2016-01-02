@@ -43,7 +43,7 @@ layout: post
       <article class="post">
 
 	
-		<h1><a href="http://mmacdonaldsilvercity.github.io/2015/12/02/evolution-of-a-script-or-lost-coding-weekend.html'>It is all about me...</a></h1>
+		<h1><a href="http://mmacdonaldsilvercity.github.io/2015/12/02/evolution-of-a-script-or-lost-coding-weekend.html'>Evolution of a Script: Or Lost Coding Weekend</a></h1>
 <div class="post-content">Yeah, all programmers are lazy.  That's why they program computers to do their scut-work, right?  
 
 And maybe they save themselves some time, mostly.  Then again, sometimes these general purpose computers call to us, saying "Lookit all the groovy things I can do!  Program me!"  And it is a false promise, because sometimes it's just plain easier and quicker NOT to apply a technical solution.
