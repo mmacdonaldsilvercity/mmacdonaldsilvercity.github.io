@@ -3,18 +3,18 @@ published: true
 title: Which will prevail? 
 layout: post
 ---
-##Open
+##OPEN
 
-###trumps proprietary
+###trumps proprietary.
 
-##Simple
+##SIMPLE
 
-###trumps complex
+###trumps complex.
 
-##Vision
+##VISION
 
-###trumps bureaucracy
+###trumps bureaucracy.
 
-##Innovation
+##INNOVATION
 
-###trumps competition
+###trumps competition.
