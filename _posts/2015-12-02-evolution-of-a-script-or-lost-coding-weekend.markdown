@@ -1,46 +1,4 @@
----
-published: true
-title: Evolution of a Script or: Lost Coding Weekend
-layout: post
----
-<!DOCTYPE html>
-<html>
-<head>
 
-  <meta charset="UTF-8">
-  <title>Evolution of a Script or: Lost Coding Weekend</title>
-  <meta name="viewport" content="width=device-width">
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-  <link href="/assets/css/style.css" rel="stylesheet" />
-  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
-
-</head>
-
-<body>
-
-<header id="header">
-    <h1><a href="/"><i class="icon-sun"></i> </a></h1>
-    <p>A long career, with a lot of different experiences in corporate Information Technology provides a backdrop for observing the IT-scape.</p>
-  </header>
-  <div id="page">
-    <div id="sidebar">
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/archives">Blog Index</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="http://twitter.com/mmacdonaldscp">Twitter</a></li>
-          <li><a href="/feed.xml">RSS Feed</a></li>
-          <li><a href="mailto:contact@silvercityenterprises.com">Respond</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div id="content">
-      <article class="post">
 
 	
 		<h1><a href="http://mmacdonaldsilvercity.github.io/2015/12/02/evolution-of-a-script-or-lost-coding-weekend.html">Evolution of a Script: Or Lost Coding Weekend</a></h1>
@@ -84,24 +42,4 @@ echo "   User $S3 " >> ~/.ssh/config   <br>
 
 </div>
 
-	<p class="meta">Posted on <span class="postdate">Jan 02, 2016</span></p>
-
-</article>
-
-    </div>
-  </div>
-  <footer id="footer">
-    <p class="copyright">Copyright &copy; 2016 . Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
-  </footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
-    });
-  </script>
-
-
-
-</body>
-</html>
+	
