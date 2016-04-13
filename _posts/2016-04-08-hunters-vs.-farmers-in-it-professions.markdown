@@ -5,7 +5,7 @@ layout: post
 ---
 You should look at the Wikipedia article:
 
-[Hunter vs Farmer Hypothesis]](https://en.wikipedia.org/wiki/Hunter_vs._farmer_hypothesis/)
+[Hunter vs Farmer Hypothesis](https://en.wikipedia.org/wiki/Hunter_vs._farmer_hypothesis/)
 
 Really good software developers are Farmers.<br/>
 Really good software support and maintenance technicians are Hunters.<br/>
