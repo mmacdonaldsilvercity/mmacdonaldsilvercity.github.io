@@ -1,4 +1,3 @@
-
 ---
 published: false
 title: Lost Coding Weekend
