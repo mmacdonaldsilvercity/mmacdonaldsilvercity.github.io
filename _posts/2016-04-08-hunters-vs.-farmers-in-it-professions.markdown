@@ -3,7 +3,9 @@ published: true
 title: Hunters vs. Farmers in IT Professions
 layout: post
 ---
-See [the wikipedia article](https://en.wikipedia.org/wiki/Hunter_vs._farmer_hypothesis/)
+You should look at the Wikipedia article:
+
+[Hunter vs Farmer Hypothesis]](https://en.wikipedia.org/wiki/Hunter_vs._farmer_hypothesis/)
 
 Really good software developers are Farmers.<br/>
 Really good software support and maintenance technicians are Hunters.<br/>
