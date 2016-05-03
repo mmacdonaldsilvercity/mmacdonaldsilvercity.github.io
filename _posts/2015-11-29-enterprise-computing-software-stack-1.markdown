@@ -1,6 +1,6 @@
 ---
 published: true
-title: Enterprise Computing: Software Stack #1
+title: Enterprise Computing Software Stack #1
 layout: post
 ---
 What is the most viable software stack upon which a new enterprise computing platform should be built?
